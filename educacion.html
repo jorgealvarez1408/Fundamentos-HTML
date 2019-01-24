@@ -75,8 +75,33 @@
           </tbody>
         </table>
       </article>
+      <br>
       <article class="">
-
+        <form autocomplete="on" class="" action="index.html" method="post">
+          <fieldset>
+            <legend>Agregar Estudios</legend>
+            <p>
+              <label for="year">Año</label>
+              <select class="" name="year">
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+              </select>
+            </p>
+            <p>
+              <label for="institution">Institución:</label>
+              <input type="text" name="institution" autofocus required>
+            </p>
+            <p>
+              <label for="place"> Lugar: </label>
+              <textarea name="place" rows="2" cols="20"></textarea>
+            </p>
+            <p>
+			        <input type="submit" value="Enviar">
+		        </p>
+          </fieldset>
+        </form>
       </article>
     </section>
     <br>
